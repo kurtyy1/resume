@@ -13,6 +13,17 @@ class personal extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start, // Align text to the left
         children: [
           Padding(
+            padding: EdgeInsets.fromLTRB(10, 10, 0, 0),
+            child: Text(
+                "Personal Details",
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                 color: Colors.black,
+                ),
+              ),
+          ),
+          Padding(
             padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
             child: Text(
               'Name: Kurt Ivan Sarmiento',
@@ -22,7 +33,7 @@ class personal extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(height: 20),
+          SizedBox(height: 15),
           Padding(
             padding: EdgeInsets.fromLTRB(10, 10, 0, 0),
             child: Text(
@@ -44,7 +55,7 @@ class personal extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(height: 20),
+          SizedBox(height: 15),
           Padding(
             padding: EdgeInsets.fromLTRB(10, 10, 0, 0),
             child: Text(
@@ -55,7 +66,7 @@ class personal extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(height: 20),
+          SizedBox(height: 15),
           Padding(
             padding: EdgeInsets.fromLTRB(10, 10, 0, 0),
             child: Text(
@@ -66,7 +77,7 @@ class personal extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(height: 20),
+          SizedBox(height: 15),
           Padding(
             padding: EdgeInsets.fromLTRB(10, 10, 0, 0),
             child: Text(
@@ -81,13 +92,59 @@ class personal extends StatelessWidget {
           Padding(
             padding: EdgeInsets.fromLTRB(10, 10, 0, 0),
             child: Text(
-              'Skils: Debugging',
+                "School Attainment",
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.lightBlue,
+                ),
+              ),
+          ),
+              SizedBox( height: 20),
+              Padding(
+            padding: EdgeInsets.fromLTRB(10, 10, 0, 0),
+            child:
+              Text(
+                "College Level",
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.lightBlue,
+                ),
+              ),
+          ),
+              Padding(
+            padding: EdgeInsets.fromLTRB(10, 10, 0, 0),
+            child: Text(
+              'Philippine College of Science and technology'
+              '2020 - present',
               style: TextStyle(
                 color: Colors.lightBlue,
                 fontSize: 16,
               ),
             ),
-          )
+          ),
+              Padding(
+            padding: EdgeInsets.fromLTRB(10, 10, 0, 0),
+            child:Text(
+                "Secondary Level",
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.lightBlue,
+                ),
+              ),
+              ),
+              Padding(
+            padding: EdgeInsets.fromLTRB(10, 10, 0, 0),
+            child: Text(
+              'Calasiao Comprehensive National High School',
+              style: TextStyle(
+                color: Colors.lightBlue,
+                fontSize: 16,
+              ),
+            ),
+          ),
         ],
       ),
     );

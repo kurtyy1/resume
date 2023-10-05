@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class certificate extends StatelessWidget {
+class skills extends StatelessWidget {
 
    @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Text('Certification'),
+          title: Text('Skills'),
           backgroundColor: Colors.lightBlue,
           ),
           body: Column(
@@ -15,7 +15,7 @@ class certificate extends StatelessWidget {
           Padding(
             padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
             child: Text(
-              'Fil-Chi (TESDA) Certification',
+              'Debugger',
               style: TextStyle(
                 fontSize: 20,
                 color: Colors.lightBlue,
@@ -26,17 +26,7 @@ class certificate extends StatelessWidget {
           Padding(
             padding: EdgeInsets.fromLTRB(10, 10, 0, 0),
             child: Text(
-              'National Certificate 2 for Computer Service Systems (CSS) ',
-              style: TextStyle(
-                color: Colors.lightBlue,
-                fontSize: 18,
-              ),
-            ),
-          ),
-          Padding(
-            padding: EdgeInsets.fromLTRB(10, 10, 0, 0),
-            child: Text(
-              'National Certificate 2 for Computer Service Systems (CSS) ',
+              'Networking',
               style: TextStyle(
                 color: Colors.lightBlue,
                 fontSize: 18,
